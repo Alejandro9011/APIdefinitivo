@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RickandMorty</title>
+  <link href="API.css" rel="stylesheet" >
+<body> 
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <div id="particles-js"></div>
+ 
+  <h1>The Rick and Morty </h1>
+  <input type="text" class="nombre-personaje" placeholder="Nombre del personaje">
+  <button class="boton" onclick="buscarPersonajes()">Buscar</button>
+<hr>
+  <select  name="pagina"  id="pagina" onchange="apiRick(this.value)">
+    <script>
+       for (let i = 1; i <=42; i++) {
+           document.write(`<option value="${i}">${i}</option>`)
+      }
+     </script>
+   </select>
+  
+    <div id="resultado"></div>
+    <script src="API.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+<footer><a href="#">@DeveloperAledesginer</a></footer>
+</html>
