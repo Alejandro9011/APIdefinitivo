@@ -1,4 +1,4 @@
-# APIdefinitivo
+# API
 README API
 
 Este proyecto es una demostración de cómo implementar la paginación en una lista de elementos que han sido traidos por medio de una API, utilizando JavaScript.
